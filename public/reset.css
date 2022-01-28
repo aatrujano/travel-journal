@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 6rem 0;
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(155deg, #ff7378, #cb73fc, #09a9d0);
+  background: rgb(95, 95, 95);
 }
 
 ul,

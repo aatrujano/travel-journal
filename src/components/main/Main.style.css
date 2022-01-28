@@ -1,0 +1,12 @@
+.main{
+    background-color: #FFF;
+    padding: 45px 40px;
+    border-radius: 0 0 9px 9px;
+}
+.locations{
+    display: flex;
+    flex-direction: column;
+}
+.locations .location__container:not(:last-child) {
+    margin-bottom: 2rem;
+}

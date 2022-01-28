@@ -1,11 +1,16 @@
 // STYLE
 import './NavBar.style.css';
 
+// IMAGE
+import logo from '../../images/navBarLogo.png';
+
 const NavBar = () => {
     return (
         <nav className='navBar'>
-            <img className='navBar__logo' src="" alt="" />
-            <span className='navBar__text'></span>
+            <div className='logoCont'>
+                <img src={logo} alt="" />
+            </div>
+            <span className='navBar__text'>my travel journal.</span>
         </nav>
     )
 }
