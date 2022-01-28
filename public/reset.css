@@ -1,0 +1,33 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 6rem 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(155deg, #ff7378, #cb73fc, #09a9d0);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
